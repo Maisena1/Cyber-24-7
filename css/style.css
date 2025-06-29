@@ -1,0 +1,104 @@
+* {
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: rgb(16, 197, 16);
+}
+
+.intro {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.title {
+    margin: 20px;
+}
+
+.LogoSedes {
+    max-width: 300px;
+    width: 50%;
+}
+
+.imagenlogocyber {
+    width: 100%;
+}
+
+.integrantes_content {
+    text-align: center;
+}
+
+.integrantes {
+    margin: 10px;
+}
+
+.content_Enlaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.content_Enlaces a {
+    text-decoration: none;
+}
+
+.content_Enlaces :hover {
+    color: black;
+    background-color: rgb(16, 197, 16);
+    transition: all 0.5s;
+}
+
+.content_Card {
+    padding: 20px;
+}
+
+.card {
+    margin: 20px;
+    text-align: justify;
+}
+
+.titulosGrande,
+.titulosPequeños {
+    margin: 10px;
+}
+
+.negrita {
+    font-weight: bolder;
+}
+
+.diagrama {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+@media (max-width: 1250px) {
+    * {
+        font-size: 80%;
+    }
+
+    .LogoSedes {
+        width: 50%;
+        margin: 20px;
+    }
+
+    .imagenlogocyber {
+        width: 60%;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .diagrama {
+        width: 50%;
+    }
+}
