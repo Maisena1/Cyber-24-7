@@ -5,6 +5,7 @@
     box-sizing: border-box;
     background-color: black;
     color: rgb(16, 197, 16);
+    font-size: 5px;
 }
 
 .intro {
@@ -19,11 +20,11 @@
 
 .LogoSedes {
     max-width: 300px;
-    width: 50%;
+    width: 30%;
 }
 
 .imagenlogocyber {
-    width: 100%;
+    width: 50%;
 }
 
 .integrantes_content {
@@ -62,22 +63,18 @@
 
 }
 
+.content_Enlaces {
+    text-align: center;
+}
+
 .titulosGrande,
 .titulosPequeños {
     margin: 10px;
 }
 
-.negrita {
-    font-weight: bolder;
-}
 
-.diagrama {
-    text-align: center;
-    width: 100%;
-    margin: auto;
-}
 
-@media (max-width: 1250px) {
+@media (min-width: 1250px) {
     * {
         font-size: 80%;
     }
